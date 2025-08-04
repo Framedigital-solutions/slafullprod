@@ -1,0 +1,23 @@
+# -------- Server ----------
+PORT=8000
+NODE_ENV=development
+FRONTEND_URL=http://localhost:3000
+BACKEND_URL=http://localhost:8000
+
+# -------- Database & Auth ----------
+MONGODB_URI=mongodb+srv://slamuztechnology01:slamuztechnology01@cluster0.qtxhgx1.mongodb.net/
+
+
+# -------- Cashfree ----------
+CASHFREE_APP_ID=TESTID653340187062f7772dc8aeedc04335601
+CASHFREE_SECRET_KEY=cfck_mq_test_l2b5167aef0CD7054D8bd263fa963f5_a1c9d4d4
+CASHFREE_ENVIRONMENT=SANDBOX      # keep as SANDBOX while testing
+CASHFREE_MAX_AMOUNT=500000
+# -------- SMS / OTP ----------
+FAST2SMS_API_KEY=tDl4qk1yOPJruMS9YoB7c5XWeGUwVzAnZTR26sjbEN0apghfI3kMaFTwlNAcRSLvhOXdmBeQyD7UV4ZE
+# -------- Cloudinary ----------
+CLOUDINARY_CLOUD_NAME=dl6jnera
+CLOUDINARY_API_KEY=923496779325221
+CLOUDINARY_API_SECRET=6CkuhFuLt48ba9fSh7l4zjTWDpk
+
+# -------- Firebase (optional) ----------
